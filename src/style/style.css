@@ -1,0 +1,285 @@
+/*************Style Global*******************/
+/****************************
+ * MODULE AUTOR:JCHILITO    *
+ * JHON MARIO (WHOAOMI)     *
+ ****************************/
+*{
+    font-family: helvetica;
+}
+input{outline: none;}
+select:focus{ outline: none;}
+/**********colores globales*************/
+.colWithe{color: #fff;}
+.azulCorp{color:rgba(0, 102, 153, 0.7)}
+.verde{color:rgb(132 167 25)}
+.amarillo{color:rgb(209 151 27)}
+.azulCla{color:rgb(36 183 158)}
+.naranja{color:rgb(241, 96, 29)}
+/**************BACKGROUND***************/
+.azulBack{background-color:#006699}
+.verdeBack{background-color:rgb(164, 199, 56)}
+.amarilloBack{background-color:rgb(253, 189, 52)}
+.azulClaBack{background-color:rgb(50, 216, 188)}
+.naranjaBack{background-color:rgb(241, 96, 29)}
+/**************Opacity BACKGROUND********************/
+.verdeOpacity{background-color:rgb(164 199 56 / 28%);border-radius: 5px;}
+.amarilloOpacity{background-color:rgb(253 189  52 /28%);border-radius: 5px;}
+.azulClaOpacity{background-color:rgb(50 216 188 / 28%);border-radius: 5px;}
+.naranjaOpacity{background-color:rgb(241 96 29 / 28%);border-radius: 5px;} 
+.azulCorpOpacity{background-color:rgb(0 102 153 / 28%);border-radius: 5px;} 
+/****************CONTENEDOR*****************/
+.spacingCon{
+    width: 100%;
+    padding: 5px;
+    bottom: 20;
+    margin-bottom: 20;
+}.cont-top{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+}.cont-flex{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    justify-items: center;
+    justify-content: center;
+}.cont-txt{
+    height: 50vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+.table{
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+    margin: 6px;
+    padding: 6px;
+    border-radius: 5px;
+    background: rgba(128, 128, 128, 0.159);
+}
+/*******************FOOTER GLOBAL***************/
+.footer{
+    border-radius: 0px;
+    z-index: 20;
+    padding: 50px;
+    position:relative;
+    width:100%;
+    top:50px;
+}
+/*****************ICONOS***********************/
+.ico{padding: 2px;color:#fff;}
+/*****************BOTONES*********************/
+.groub{
+    width: 100%;
+    display: flex;
+}
+.botu-Dimi{
+    margin-left: 7px;
+    background: #006699;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}.botu-Dimi:hover{
+    background: #006699bb;
+    cursor: pointer;
+}
+.eyesPass{
+    width: 35px;
+    height: 48px;
+    margin-left: 2px;
+    color: #fff;
+    padding: 2px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.eyesPass:hover{
+    background-color: rgba(0, 102, 153, 0.363);
+}
+.mas{
+    color: green;
+    background: greenyellow;
+    border-radius: 5px;
+    border: 0;
+}
+.mas:hover{color: white;cursor: pointer;}
+.Btn{
+    color: #fff;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    font-size: 0.875rem;
+    min-width: 64px;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-flex;
+    margin: 5px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    cursor: pointer;
+}.Btn:hover{
+    box-shadow: 0px 0px 9px rgba(59, 58, 58, 0.644);
+}
+/******************INPUT***************/
+.react-autosuggest__input{
+    background:#80808025;
+    width: 100%;
+    border: 1px solid #80808025;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    padding: 7px;
+}
+.react-autosuggest__suggestions-container:hover{
+    background-color: #80808025;
+    border: 1px solid #80808025;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Select-cont{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    background:#80808025;
+    padding: 5px;
+    border-radius: 5px;
+}.Select-cont > select{
+    width: 100%;
+    padding: 5px;
+    border: 0px;
+    color: #706565;
+    cursor: pointer;
+    background: none;
+}.Select-cont > select > option{
+    background:#80808014;
+}
+.input-text{
+    width: 100%;
+    border: 1px solid #80808025;
+    background:#80808025;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.swift{
+    position: relative;
+    padding-top: 5px;
+}
+.swift[type='checkbox']{
+    position: relative;
+    width: 80px;
+    height: 35px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}.swift[type='checkbox']:before{
+    content: '';position: absolute;width: 35px;height: 35px;
+    border-radius: 20px;top: 0;left: 0;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background: #fff;transform: scale(1.1);transition: .5s;
+}.swift:checked[type='checkbox']{background: #03a9F4;}
+.swift:checked[type='checkbox']:before{left: 45px;}
+.Swif-cont{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    background:#80808025;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius:5px;
+}.Swif-cont > label{
+    margin: 1px;
+}.LaGroup{
+    display: flex;
+    background: #80808025;
+    border:0;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+}.inGrop{
+    width: 100%;
+    border: 0;
+    background: none;
+}
+.select-multi{width: 100%;padding: 5px;border-radius:5px;margin: 5px;border: 1px solid rgba(128, 128, 128, 0.438);}
+/*****************TEXTOS********************/
+.borLet{border-left: 5px solid rgba(0, 0, 0, 0.248);}
+.ty1{
+    padding: 5px;
+}
+.lab-min{
+    margin: 5px;
+    margin-right: 15px;
+}
+.text-b{margin: 5px;margin-right: 10px;}
+.label-input{
+    margin-top: 15px;
+    font-size: 16px;
+}
+/***********Alertas Material ui y*******************/
+.Alert{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*********Imaggens*********/
+.Avatar{
+    width:'70%';height:'6vh'
+}
+/**********Contenedores**************/
+.gmail_quote{
+    text-align: justify;
+    display: block;
+    word-wrap: break-word;
+    width: 40%;
+}
+/****************Label************/
+.margin{
+    margin: 20px;
+}
+/*******************/
+.textTarea{
+    width: 100%;
+    height: 10vh;
+    font-size: 15px;
+}
+.Size-20{
+    font-size: 20px;
+}
+/****************IMAGEN************/
+.imagen{
+    width: 100%;
+}
+/************SOBRE POSITION****************/
+.padre-position{
+    position: relative;
+    right: 30px;
+}.positio-absol{
+    position: absolute;
+}.z-index{
+    z-index: 20;
+    border-radius: 5px;
+}

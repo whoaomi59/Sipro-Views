@@ -1,0 +1,21 @@
+
+.logoSipro{
+    width: 60%;
+    height: 8vh;
+    margin: 5px;
+}
+.conterLogin{
+    z-index:20;
+    background:'#80808038';
+}
+.Alertas{
+    padding: 6px;
+}
+.Error{
+    margin: 5px;
+}
+.sapo{
+    background-image: url('https://img.freepik.com/vector-premium/fondo-blob-simple-abstracto-lineas_657117-13.jpg?w=2000');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
